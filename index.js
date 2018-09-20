@@ -11,7 +11,7 @@ if (!gl) {
 }
 else {
     document.getElementById("glerror").hidden = true;
-    gl = WebGLDebugUtils.makeDebugContext(gl, throwOnGLError);
+    // gl = WebGLDebugUtils.makeDebugContext(gl, throwOnGLError);
     main(gl);
 }
 // Adapted from https://webgl2fundamentals.org/webgl/lessons/webgl-fundamentals.html
