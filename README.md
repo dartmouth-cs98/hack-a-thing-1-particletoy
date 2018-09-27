@@ -29,6 +29,7 @@ decided to iterate on this one instead.
 * We tried to get sound input working for an audio visualizer type thing using
 a JS library called p5. However, we couldn't integrate it with Typescript
 effectively and had trouble getting it to load properly in the browser.
+* We tried another alternative sound input API called Web Audio API. For reasons we haven't figured out, Firefox and Chrome tell us that Web Audio API is not supported in the browser, despite the fact that in the version documentation of the versions of Firefox and Chrome we were running supported such an API.
 
 ### What we learned
 The JS ecosystem has _so many_ build systems/tools to choose from. We learned how
@@ -54,6 +55,7 @@ data visualization.
 * http://lesscss.org/
 * https://gulpjs.org/getting-started.html
 * https://medium.com/superhighfives/deploying-to-github-pages-with-gulp-c06efc527de8
+* https://hackernoon.com/creative-coding-using-the-microphone-to-make-sound-reactive-art-part1-164fd3d972f3
 
 # Hack a thing 1 README for background info
 ### What is it
