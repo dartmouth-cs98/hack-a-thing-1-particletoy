@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <script src="bundle.js"></script>
     <canvas id="mainCanvas"></canvas>
     <div class="sliders">
         Left click to attract. Right click to repel. Have fun!
@@ -21,6 +22,14 @@
                 <input type="range" min="0" max="100" value="60" class="slider" id="points">
                 Points: <span id="pointsVal"></span>
             </li>
+            <li>
+                <input type="range" min="1" max="10" value="0.5" class="slider" id="pointsize">
+                Point Size: <span id="pointsizeVal"></span>
+            </li>
+            <li>
+                <input type="checkbox" class="slider" id="screensaver">
+                Screensaver Mode <span id="auto run"></span>
+            </li>
         </ul>
 
     </div>
@@ -28,8 +37,6 @@
         <h1>Error: Could not load WebGL 2</h1>
         <h2>This site needs WebGL 2. Your browser doesn't seem to support it. Try a recent version of Chrome</h2>
     </div>
-    <script src="webgl-debug.js"></script>
-    <script src="index.js"></script>
 </body>
 
 </html>
